@@ -28,7 +28,7 @@ loss=log_loss(y_test.reshape(1,-1),LR_predict.reshape(1,-1))
 print('逻辑回归log损失:',loss)'''
 
 from sklearn.naive_bayes import BernoulliNB #贝叶斯
-# 朴素贝叶斯
+# 朴素贝叶斯 
 '''NB=BernoulliNB()
 NB_starttime=time.time()
 NB.fit(X_train,y_train)
